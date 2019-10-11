@@ -1,3 +1,9 @@
-const Home = () => <h1>Hello world!</h1>;
+import Header from "../components/header";
+
+const Home = () => {
+    return (
+        <Header/>
+    )
+};
 
 export default Home;

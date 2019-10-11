@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/pfarrar1/limpbizkitipsum#readme",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^9.1.1",
+    "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
