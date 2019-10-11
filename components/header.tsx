@@ -1,11 +1,13 @@
-import './header.scss'
+import "./header.scss";
 
 const Header = () => {
-    return(
-        <div className='header-container'>
-            <h1>Hello world header component</h1>
-        </div>
-    )
-}
+  return (
+    <nav className="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+      <a className="navbar-brand" href="#">
+        LimpBizkitIpsum
+      </a>
+    </nav>
+  );
+};
 
 export default Header;
