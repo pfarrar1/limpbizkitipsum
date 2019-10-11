@@ -1,9 +1,15 @@
-import Header from "../components/header";
+import * as React from "react";
+import Header from "../components/header/header";
+import Content from "../components/main/main";
+import "./style.scss"
 
 const Home = () => {
-    return (
-        <Header/>
-    )
+  return (
+    <>
+      <Header />
+      <Content />
+    </>
+  );
 };
 
 export default Home;
